@@ -5,83 +5,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2c8772a22b.js" crossorigin="anonymous"></script>
     <title>Omlife</title>
+    <meta name="description" content="Omlife es una empresa que...">
+    <meta name="author" content="Econova">
+    <link rel="shortcut icon" href="assets/favicon/omlife-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/styles.css">
 </head>
 
 <body>
-    <header>Nosotros/ Beneficios/ Visión/ Nuestra Comunidad/ Trabaja con Nosotros</header>
-    <main>
-        <section>
-            <header>
-                <h1>Omlife</h1>
-            </header>
-            <article>
-                <header>
-                    <h2>Nosotros</h2>
-                </header>
-                <p>
-                    Una StartUp que busca promover el cuidado al medioambiente y darle una oportunidad de uso a los
-                    residuos que muchas empresas generan hoy en día
-                </p>
-                <img src="img/nosotros.png" width="200" alt=""><br><br>
-                <button>Regístrate Aquí</button><br><br>
-                <button><img src="img/GooglePlay.png" alt=""></button>
-                <button><img src="img/AppStore.png" alt=""></button>
-            </article>
-            <article>
-                <header>
-                    <h2>Beneficios</h2>
-                </header>
-                <p>
-                    Brindamos oportunidades únicas de ahorro y mejora de la gestión de residuos para las empresas
-                </p>
-                <img src="img/Beneficios.png" width="200" alt=""><br><br>
-            </article>
-            <article>
-                <header>
-                    <h2>Visión</h2>
-                </header>
-                <p>
-                    Ser líderes en el sector de la reutilización y el reciclaje, con un acérrimo compromiso en materia
-                    de cumplimiento y un camino trazado en la senda del desarrollo sostenible. Con nuestra labor
-                    perseguimos una eficiente gestión de los recursos que permita favorecer la conversación de estos, de
-                    manera que estén disponibles para las generaciones presentes y futuras.
-                </p>
-                <h3>"Somos su mejor opción para resolver sus problemas de gestión y espacio"</h3>
-            </article>
-            <article>
-                <header>
-                    <h2>Nuestra comunidad</h2>
-                </header>
-                <section>
-                    <h3>Susana Villa</h3>
-                    <p>Omlife es una excelente oportunidad para llevar a cabo la gestión y manipulación de los residuos
-                        de una empresa</p>
-                    <img src="img/Susana.png" width="180" alt=""><br><br>
-                </section>
-                <section>
-                    <h3>Cesar Romero</h3>
-                    <p>Omlife es un proyecto que le permite escanear la cantidad de residuos que desea eliminar de su
-                        almacén de forma rápida y sin complicaciones</p>
-                    <img src="img/Cesar.png" width="180" alt=""><br><br>
-                </section>
-                <section>
-                    <h3>Alex Prado</h3>
-                    <p>El servicio de recolección es especial y confiable, todos los camiones están en buenas
-                        condiciones para la recolección. La fecha de entrega de los camiones es puntual</p>
-                    <img src="img/Alex.png" width="180" alt=""><br><br>
-                </section>
-            </article>
-            <article>
-                <header>
-                    <h2>Trabaja con Nosotros</h2>
-                </header>
-                <p>Nos preocupamos por el ambiente y tu economía</p>
-                <button>Regístrate Aquí</button>
-            </article>
-        </section>
+    <header class="top-header">
+        <div class="header-container">
+            <div class="header-item">
+                <h1 class="header-title"><span class="icon-header"><i class="fas fa-truck"></i></span>OMLIFE</h1>
+                <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+            </div>
+            <nav class="header-nav" id="header-nav">
+                <ul class="menu">
+                    <li class="menu-item"><a href="" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Nosotros</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Beneficios</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Nuestra comunidad</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="banner">
+        <div class="banner-container">
+            <p class="banner-txt">"Somos su mejor opción para resolver sus problemas de gestión y espacio"</p>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="main-container">
+            <section class="container-a__section">
+                <div class="section-a__item">
+                    <h2 class="section-a__title">Nosotros</h2>
+                    <p class="section-a__text">Somos una StartUp que busca promover el cuidado al medioambiente mediante
+                        el reciclaje de residuos
+                        que muchas empresas generan día a día.</p>
+                </div>
+                <img src="assets/images/nosotros.png" alt="Imagen de Omlife" class="section-a__img">
+            </section>
+            <section class="container-b__section">
+                <div class="vision__item">
+                    <h2 class="vision__title">Vision</h2>
+                    <p class="vision__text">"Ser líderes en el sector de la reutilización y el reciclaje, con un
+                        acérrimo
+                        compromiso en materia de
+                        cumplimiento y un camino trazado en la senda del desarrollo sostenible."</p>
+                </div>
+            </section>
+            <section class="container-a__section">
+                <div class="section-a__item">
+                    <h2 class="section-a__title">Beneficios</h2>
+                    <p class="section-a__text">Brindamos oportunidades únicas de ahorro y mejora de la gestión de
+                        residuos
+                        para la empresa</p>
+                </div>
+                <img src="assets/images/inventario.png" alt="Beneficios de Omlife" class="section-a__img">
+            </section>
+            <section class="container-c__section">
+                <h2 class="section__title">Nuestra comunidad</h2>
+                <div class="container-cliente__item">
+                    <div class="cliente__item">
+                        <img src="assets/images/Susana.png" alt="Cliente 1" class="cliente__img">
+                        <h3 class="cliente__title">Susana Villa</h3>
+                        <p class="cliente__text">"Omlife es una excelente oportunidad para llevar a cabo la gestión y
+                            manipulación de los residuos de una empresa"</p>
+                    </div>
+                    <div class="cliente__item">
+                        <img src="assets/images/Cesar.png" alt="Cliente 2" class="cliente__img">
+                        <h3 class="cliente__title">Cesar Romero</h3>
+                        <p class="cliente__text">"Omlife es un proyecto que le permite escanear la cantidad de residuos
+                            que desea eliminar de su almacén de forma rápida y sin complicaciones"</p>
+                    </div>
+                    <div class="cliente__item">
+                        <img src="assets/images/Alex.png" alt="Cliente 3" class="cliente__img">
+                        <h3 class="cliente__title">Alex Prado</h3>
+                        <p class="cliente__text">"El servicio de recolección es especial y confiable, todos los camiones
+                            están en buenas condiciones para la recolección. La fecha de entrega de los camiones es
+                            puntual"</p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
-    <footer>Omlife Corporation - 2021</footer>
+    <footer></footer>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
