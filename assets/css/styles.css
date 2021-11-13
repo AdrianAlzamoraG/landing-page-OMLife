@@ -145,7 +145,7 @@ h1,h2,h3,h4{
 }
 
 .banner {
-  background-image: url("/images/bannerH.webp");
+  background-image: url("assets/img/banner.jpg");
   top: 0;
   min-height: 85%;
   position: absolute;
