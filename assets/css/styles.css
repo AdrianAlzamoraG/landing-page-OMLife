@@ -157,6 +157,11 @@ h4{
   padding: 0, 15px;
 }
 
+.header-img{
+  height: 80px;
+  width: 80px;
+}
+
 .header-item {
   display: flex;
   justify-content: space-between;
@@ -165,8 +170,13 @@ h4{
   color: white;
 }
 
-.icon-header {
-  padding-left: 15px;
+.header-title{
+  display: flex;
+  align-items: center;
+}
+
+.header-container{
+  padding: 35px 90px;
 }
 
 .icon-menu {
@@ -185,7 +195,7 @@ h4{
 
 .menu {
   position: absolute;
-  top: 80px;
+  top: 180px;
   left: 0;
   background: #212121;
   width: 100%;
