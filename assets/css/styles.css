@@ -705,3 +705,12 @@ button{
     margin-top: 750px;
   }
 }
+
+@media screen and (min-width: 1024px) and (min-height: 1366px) {
+  .banner{
+    height: 50%;
+  }
+  .main{
+    margin-top: 1150px;
+  }
+}
