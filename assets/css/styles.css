@@ -196,11 +196,11 @@ h1,h2,h3,h4{
   display: block;
 }
 
-.container-a__section,
+/*.container-a__section,
 .container-b__section,
 .container-c__section {
   margin-top: 220px;
-}
+}*/
 
 .section-a__item {
   font-size: 1.5em;
