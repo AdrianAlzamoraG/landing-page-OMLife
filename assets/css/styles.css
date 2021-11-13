@@ -276,11 +276,11 @@ button{
   display: block;
 }
 
-/*.container-a__section,
+.container-a__section,
 .container-b__section,
 .container-c__section {
-  margin-top: 220px;
-}*/
+  margin: 100px 0;
+}
 
 .section-a__item {
   font-size: 1.5em;
