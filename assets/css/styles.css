@@ -699,3 +699,9 @@ button{
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+@media screen and (min-height: 1024px) {
+  .main{
+    margin-top: 750px;
+  }
+}
