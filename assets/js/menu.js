@@ -5,5 +5,5 @@ btnMenu.addEventListener('click', function(){
 });
 
 function bimg(){
-  document.getElementsByClassName('banner').style.backgroundImage = "url(assets/img/banner.jpg)";
+  document.getElementsByClassName("banner").style.backgroundImage = "url(assets/img/banner.jpg)";
 }
