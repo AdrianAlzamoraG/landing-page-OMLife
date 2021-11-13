@@ -253,6 +253,10 @@ button{
   color: white;
 }
 
+.banner-title{
+  margin-bottom: 50px;
+}
+
 .btn{
   text-decoration: none;
   color: white;
