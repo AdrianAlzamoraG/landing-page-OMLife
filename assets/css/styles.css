@@ -545,6 +545,7 @@ h4{
   .header-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    align-items: center;
     width: 100%;
     padding: 35px 100px;
   }
@@ -568,7 +569,6 @@ h4{
   .menu-link:hover{
     background: none;
     color: white;
-
   }
   .header-nav {
     opacity: 1;
