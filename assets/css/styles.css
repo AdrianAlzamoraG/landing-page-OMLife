@@ -105,24 +105,16 @@ body {
   color: var(--text-color);
 }
 
-h1,h2,h3,h4{
+/*h1,h2,h3,h4{
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
-}
+}*/
 
 
 button{
   cursor: pointer;
   border: none;
   outline: none;
-}
-
-h1,
-h2,
-h3,
-h4{
-  color: var(--title-color);
-  font-weight: var(--font-semi-bold);
 }
 
 
