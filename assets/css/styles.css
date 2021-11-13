@@ -456,6 +456,14 @@ button{
 }
 /*==*/
 
+.copy{
+  background: #211E1E;
+  padding: 20px;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
 
 /*====================== BREAKPOINTS =============================*/
 
