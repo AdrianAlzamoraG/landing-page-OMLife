@@ -79,6 +79,8 @@ h1,h2,h3,h4{
   font-weight: var(--font-semi-bold);
 }
 
+/*======================HOME============================*/
+
 .top-header {
   padding: 0, 15px;
 }
@@ -88,6 +90,7 @@ h1,h2,h3,h4{
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  color: white;
 }
 
 .icon-header {
@@ -118,6 +121,7 @@ h1,h2,h3,h4{
   padding: 0;
   margin: 0;
   z-index: 99999;
+  font-size: 1.2em;
 }
 
 .menu-item {
@@ -144,24 +148,24 @@ h1,h2,h3,h4{
 }
 
 .banner {
-  background-color: grey;
-  min-height: 380px;
-  position: relative;
+  background: url(/assets/images/banner.webp);
   top: 0;
+  min-height: 85%;
+  position: absolute;
   left: 0;
   width: 100%;
   z-index: -9999;
 }
 
-/* .banner::before{
+.banner::before{
     content: "";
     width: 100%;
-    min-height: 380px;
+    min-height: 85%;
     background: rgb(0,0,0,0.5);
     position: absolute;
     top: 0;
     left: 0;
-} */
+}
 
 .banner__content {
   width: 100%;
@@ -172,13 +176,24 @@ h1,h2,h3,h4{
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   font-size: 1.5em;
+  color: white;
+}
+
+.btn{
+  text-decoration: none;
+  color: white;
+  background-color: #55A603;
+  border-radius: 6px;
+  padding: 20px 40px;
+  text-align: center;
 }
 
 .main {
   padding: 0 20px;
+  margin-top: 520px;
 }
 
-.container-main {
+.main-container {
   display: block;
 }
 
@@ -234,17 +249,44 @@ h1,h2,h3,h4{
 }
 
 @media screen and (min-width: 1024px) {
-  /* .icon-menu {
+  .icon-menu {
     display: none;
   }
-  .main-nav {
-    visibility: visible;
-    opacity: 1;
+  .header-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     width: 100%;
-    margin-top: 20px;
-  } */
+    padding: 35px 100px;
+  }
+  .header-item{
+    width: 100%;
+  }
+  .menu{
+    position: static;
+    width: auto;
+    display: flex;
+    background: none;
+    align-items: center;
+  }
+  .menu-item{
+    width: auto;
+  }
+  .menu-link:hover{
+    background: none;
+    color: white;
+
+  }
+  .header-nav {
+    opacity: 1;
+    visibility: visible;
+    transition: none;
+  }
   .banner {
-    height: 480px;
+    height: 100%;
+    align-items: center;
+  }
+  .banner::before{
+    min-height: 100%;
   }
   .container-a__section {
     display: flex;
