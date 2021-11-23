@@ -282,9 +282,12 @@ button{
   margin: 100px 0;
 }
 
+#Nosotros{
+  padding-top: 100px;
+}
+
 .section-a__item {
   font-size: 1.5em;
-  padding: 20px;
   overflow: hidden;
 }
 
@@ -346,6 +349,15 @@ button{
 /*=============== BUTTONS ===============*/
 .button{
   display: inline-block;
+  background-color: var(--first-color);
+  color: #FFF;
+  padding: 1rem 1.75rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+  transition: .3s;
+}
+
+input{
   background-color: var(--first-color);
   color: #FFF;
   padding: 1rem 1.75rem;
