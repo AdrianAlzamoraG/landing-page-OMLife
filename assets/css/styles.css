@@ -134,6 +134,7 @@ button{
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2);
   line-height: 140%;
+  
 }
 
 .section__title-center{
@@ -320,7 +321,8 @@ button{
 }
 
 .cliente__item {
-  border: 1px solid black;
+  border: 1px solid #55A603;
+  border-radius: 10px;
   margin: 15px;
   padding: 15px;
   margin-top: 20px;
@@ -746,3 +748,7 @@ input{
     margin-top: 1150px;
   }
 }
+
+
+
+
