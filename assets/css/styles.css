@@ -738,6 +738,7 @@ input{
   }
 
   input:hover{
+    color: black;
     background-color: white;
   }
 }
