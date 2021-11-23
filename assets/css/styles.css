@@ -370,6 +370,7 @@ input{
   border-radius: .5rem;
   font-weight: var(--font-medium);
   transition: .3s;
+  cursor: pointer;
 }
 
 .button:hover{
@@ -734,6 +735,10 @@ input{
   .container-cliente__item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  input:hover{
+    background-color: white;
   }
 }
 
