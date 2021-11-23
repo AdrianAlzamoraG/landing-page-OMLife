@@ -374,7 +374,10 @@ input{
   transition: .3s;
   cursor: pointer;
 }
-
+input:hover{
+  color: #000;
+  background-color: white;
+}
 .button:hover{
   background-color: var(--first-color-alt);
 }
@@ -490,10 +493,6 @@ input{
   top: -.75rem;
   font-size: var(--smaller-font-size);
   z-index: 10;
-}
-input:hover{
-  color: black;
-  background-color: white;
 }
 /*==*/
 
