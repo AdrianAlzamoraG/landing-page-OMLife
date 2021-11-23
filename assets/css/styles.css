@@ -104,6 +104,7 @@ body {
   color: var(--text-color);
   margin-left: auto;
   margin-right: auto;
+  max-width:1200px;
 }
 
 /*h1,h2,h3,h4{
@@ -675,9 +676,6 @@ input:hover{
 
 /*--------------*/
 @media screen and (min-width: 1024px) {
-  .body{
-    max-width: 1400px;
-  }
   .icon-menu {
     display: none;
   }
