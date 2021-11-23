@@ -102,6 +102,8 @@ body {
   /*margin: var(--header-height) 0 0 0;*/
   background: var(--body-color);
   color: var(--text-color);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*h1,h2,h3,h4{
@@ -489,6 +491,10 @@ input{
   font-size: var(--smaller-font-size);
   z-index: 10;
 }
+input:hover{
+  color: black;
+  background-color: white;
+}
 /*==*/
 
 /*====================== FOOTER =============================*/
@@ -672,8 +678,6 @@ input{
 @media screen and (min-width: 1024px) {
   .body{
     max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
   }
   .icon-menu {
     display: none;
@@ -735,11 +739,6 @@ input{
   .container-cliente__item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  input:hover{
-    color: black;
-    background-color: white;
   }
 }
 
