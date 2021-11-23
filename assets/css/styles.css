@@ -311,6 +311,10 @@ button{
   padding: 0 75px; 
 }
 
+#Planes{
+  text-align: center;
+}
+
 .container__cliente {
   margin-top: 20px;
 }
